@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Jay Hartmann",
+      "id": 1
+    },
+    {
+      "name": "Clarence Jacobi DDS",
+      "id": 2
+    },
+    {
+      "name": "Raquel Douglas",
+      "id": 3
+    }
+  ],
+  "albums": [
+    {
+      "userId": 1,
+      "title": "Handcrafted Fresh Bacon",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "title": "Incredible Granite Chair",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Handmade Metal Computer",
+      "id": 18
+    },
+    {
+      "userId": 3,
+      "title": "Tasty Cotton Bike",
+      "id": 20
+    }
+  ],
+  "photos": []
+}
