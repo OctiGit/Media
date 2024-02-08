@@ -5,9 +5,6 @@ import db from "../../Firebase/config";
 
 const fetchUsers = createAsyncThunk("users/fetch", async () => {
   // const response = await axios.get("http://localhost:3005/users");
-  // const response = await axios.get(
-  //   "https://my-json-server.typicode.com/OctiGit/Media/users"
-  // );
 
   const querySnapshot = await getDocs(collection(db, "Users"));
   const users = querySnapshot.docs.map((doc) => ({
