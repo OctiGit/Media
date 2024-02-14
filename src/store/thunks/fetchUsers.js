@@ -1,7 +1,7 @@
 import { collection, getDocs } from "@firebase/firestore";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 // import axios from "axios";
-import db from "../../Firebase/config";
+import { db } from "../../Firebase/config";
 
 const fetchUsers = createAsyncThunk("users/fetch", async () => {
   // const response = await axios.get("http://localhost:3005/users");

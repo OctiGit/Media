@@ -2,7 +2,7 @@ import { createAsyncThunk } from "@reduxjs/toolkit";
 // import axios from "axios";
 import { faker } from "@faker-js/faker";
 import { addDoc, collection } from "@firebase/firestore";
-import db from "../../Firebase/config";
+import { db } from "../../Firebase/config";
 
 const addUser = createAsyncThunk("users/add", async () => {
   // const response = await axios.post("http://localhost:3005/users", {
